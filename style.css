@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(10, 10, 68);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+h1 {
+    color:rgb(235, 208, 146);
+    font-size: 50px;
+    text-align: center;
+}
+
+.buttons {
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: aliceblue;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.overlay{
+    opacity:0.2;
+}
+
+.glow{
+    box-shadow: 0 0 30px white;
+}
